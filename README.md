@@ -5,6 +5,13 @@ The objective of this program is for you to play against the computer and try to
 It will use 2 different algorithms to choose the best play.
 Enjoy!
 
+Compile:
+1. Unzip the folder and move all the files to your Desktop;
+2. Create a new folder and move all the files to it;
+3. After that, open your console (terminal) and use the command "cd" with the attributes "Desktop / ***new folder name***";
+4. Then, use the command "javac *.java";
+5. Finally, just type the command "java TRAB2".
+
 Step by step:
 1. Choose which algorithm (MiniMax or Alphabet) you wish the computer uses;
 2. Select who should be the first player to make a move (PC or yourself);
