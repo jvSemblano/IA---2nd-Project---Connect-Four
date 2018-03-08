@@ -49,7 +49,7 @@ public class TRAB2{
 }*/
 
 
-	static Boolean makePlay(int[][] config, int coluna, int jogador){
+	static Boolean makePlay(char[][] config, int coluna, int jogador){
 		if(coluna < 0 || coluna > 6){
 			System.out.println("Essa coluna nao existe! Jogada Impossivel...");
 			return false;
