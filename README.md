@@ -6,7 +6,7 @@ It will use 2 different algorithms to choose the best play.
 Enjoy!
 
 **Compile:**
-1. Unzip the folder and move all the files to your Desktop;
+1. Unzip the folder to your Desktop;
 2. Create a new folder and move all the files to it;
 3. After that, open your console (terminal) and use the command "cd" with the attributes "Desktop / ***new folder name***";
 4. Then, use the command "javac *.java";
