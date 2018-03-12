@@ -370,8 +370,8 @@ public class TRAB2{
 				}
 				printBoard(tabuleiro);
 			}*/
-
-			if(checkWin(tabuleiro) == 2){
+			int v = checkWin(tabuleiro);
+			if(v == 2 || v == 3 || v == 4){
 				return;
 			}
 		//System.out.println(ler_diagonal(tabuleiro));
