@@ -14,13 +14,13 @@ static int checkWin(char[][] tabuleiro){
 		else if(ler_Vertical(tabuleiro) == 1 || ler_Horizontal(tabuleiro) == 1 || ler_Diagonal(tabuleiro) == 1){
 			//player wins
 			System.out.println("Ganhasteeeee!");
-			return 2;
+			return 3;
 		}
 
 		else if(ler_Vertical(tabuleiro) == 2 || ler_Horizontal(tabuleiro) == 2 || ler_Diagonal(tabuleiro) == 2){
 			//pc wins
 			System.out.println("Perdesteeeee!");
-		  	return 2;
+		  	return 4;
 		}
 		return 1;
 	}
