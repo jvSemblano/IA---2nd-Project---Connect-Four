@@ -31,6 +31,7 @@ static int min_Value(char[][] jogo){
 	if(terminal_Test(jogo)){
 		return 
 	}
+	
 
 	int v = Integer.MAX_VALUE;
 
@@ -43,7 +44,10 @@ static int min_Value(char[][] jogo){
 }
 
 static boolean terminal_Test(char[][] jogo){
-
+	int v = checkWin(jogo);
+	if(v == 2){
+		
+	}
 }
 
 
