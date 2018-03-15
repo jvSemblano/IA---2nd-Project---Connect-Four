@@ -219,7 +219,8 @@ static int checkWin(char[][] tabuleiro){
 			countX = 0;
 			countO = 0;
 		}
-
+		
+		a = 2;
 		int k = 6;
 		for(int i = k; i >= 4 ; i--){
 			
@@ -249,7 +250,7 @@ static int checkWin(char[][] tabuleiro){
 				k--;
 			}
 			k = 6;
-			a++;
+			a--;
 			countX = 0;
 			countO = 0;
 		}
