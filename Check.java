@@ -58,6 +58,11 @@ static int checkWin(char[][] tabuleiro){
 						return 2;
 					}
 				}	
+				
+				else{
+					countX = 0;
+					countO = 0;
+				}
 
 			}
 			countX = 0;
@@ -88,6 +93,11 @@ static int checkWin(char[][] tabuleiro){
 						return 2;
 					}
 				}	
+				
+				else{
+					countX = 0;
+					countO = 0;
+				}
 
 			}
 		countX = 0;
@@ -123,6 +133,12 @@ static int checkWin(char[][] tabuleiro){
 						return 2;
 					}
 				}	
+				
+				else{
+					countX = 0;
+					countO = 0;
+				}
+				
 				k++;
 			}
 			countX = 0;
@@ -156,6 +172,11 @@ static int checkWin(char[][] tabuleiro){
 						return 2;
 					}
 				}	
+				
+				else{
+					countX = 0;
+					countO = 0;
+				}
 				k++;
 			}
 			countX = 0;
@@ -187,6 +208,11 @@ static int checkWin(char[][] tabuleiro){
 						return 2;
 					}
 				}
+				
+				else{
+					countX = 0;
+					countO = 0;
+				}
 				k--;
 			}
 
@@ -214,6 +240,11 @@ static int checkWin(char[][] tabuleiro){
 						//PC wins
 						return 2;
 					}
+				}
+				
+				else{
+					countX = 0;
+					countO = 0;
 				}
 				k--;
 			}
